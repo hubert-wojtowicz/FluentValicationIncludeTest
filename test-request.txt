@@ -1,0 +1,7 @@
+﻿curl --location --request POST 'http://localhost:5000/Test' \
+--header 'Content-Type: application/json' \
+--header 'Cookie: Token=17e97983d3d16fd33afa950ca3a2172aa361084c74864d155c446ce17662e371' \
+--data-raw '{
+	"Number": 15,
+	"Name": "This is more than 5 characters length text"
+}'
